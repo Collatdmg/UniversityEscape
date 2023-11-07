@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ The\ Item\ class\ creates\ the\ items\ that\ the\r\n\ user\ has\ to\ find.\ All\ items\ are\ defined\ in\ the\ Game\ class\ in\ \r\n\ the\ createItems()\ method.\ There\ are\ 9\ items\ to\ find,\ and\ \r\n\ 1\ item\ that\ isn't\ found\ but\ is\ used\ to\ make\ the\ process\r\n\ of\ depositing\ notes\ more\ simple.\r\n\r\n\ @author\ Ethan\ Jones\r\n\ @version\ 2022.11.20\r\n
+comment1.params=
+comment1.target=Item()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Item\r\n\ \r\n\ Pre\ condition\:\ none\r\n\ \r\n\ Post\ condition\:\ the\ item\ is\ created\ and\ is\ set\ to\ not\ in\ the\ inventory.\r\n
+comment2.params=
+comment2.target=void\ setInInventory()
+comment2.text=\r\n\ Mutator\ method\ for\ the\ inInventory\ field\r\n\ \r\n\ Pre\ condition\:\ the\ item\ has\ been\ initialized.\ The\ play()\r\n\ method\ must\ be\ executing.\r\n\ \r\n\ Post\ condition\:\ the\ value\ of\ inInventory\ is\ set\ to\ true.\r\n
+comment3.params=
+comment3.target=boolean\ getInInventory()
+comment3.text=\r\n\ Accessor\ method\ for\ the\ inInventory\ field\r\n\ \r\n\ Pre\ condition\:\ the\ item\ has\ been\ initialized.\ The\ play()\r\n\ method\ must\ be\ executing.\r\n\ \r\n\ Post\ condition\:\ the\ value\ of\ inInventory\ is\ returned;\r\n\ \r\n\ @return\ the\ value\ of\ inInventory.\r\n
+comment4.params=
+comment4.target=void\ removeFromInventory()
+comment4.text=\r\n\ mutator\ method\ for\ the\ inInventory\ and\ removedFromInventory\ fields\r\n\ \r\n\ Pre\ condition\:\ the\ item\ has\ been\ initialized.\ The\ play()\r\n\ method\ must\ be\ executing.\r\n\ \r\n\ Post\ condition\:\ sets\ inInventory\ to\ false\ and\ removedFromInventory\ to\ true\r\n
+comment5.params=
+comment5.target=boolean\ getRemoveFromInventory()
+comment5.text=\r\n\ accessor\ method\ for\ the\ removedFromInventory\ field\r\n\ \r\n\ Pre\ condition\:\ the\ item\ has\ been\ initialized.\ The\ play()\r\n\ method\ must\ be\ executing.\r\n\ \r\n\ Post\ condition\:\ returns\ the\ value\ of\ removedFromInventory\r\n\ \r\n\ @return\ the\ value\ of\ removedFromInventory\r\n
+numComments=6

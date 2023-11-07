@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Map
+comment0.text=\r\n\ The\ map\ class\ outputs\ a\ map\ of\ the\ university\ with\ cardinal\ directions.\r\n\r\n\ @author\ Ethan\ Jones\r\n\ @version\ 2022.11.20\r\n
+comment1.params=
+comment1.target=Map()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Map\r\n\ \r\n\ Pre\ condition\:\ none\r\n\ \r\n\ Post\ condition\:\ none\r\n
+comment2.params=
+comment2.target=void\ map()
+comment2.text=\r\n\ Prints\ out\ the\ map\ of\ the\ university\ (not\ including\ the\ dungeon)\r\n\ \r\n\ Pre\ condition\:\ the\ play()\ method\ is\ called\ in\ the\ Game\ Class\r\n\ \r\n\ Post\ condition\:\ the\ map\ will\ be\ printed\ and\ the\ user\ will\ be\ able\ to\ \r\n\ see\ it.\r\n
+numComments=3
